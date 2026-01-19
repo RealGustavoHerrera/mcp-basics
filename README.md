@@ -2,6 +2,10 @@
 
 A minimal example of building an MCP (Model Context Protocol) client and server in Python. This tutorial teaches you how to create AI applications that can use external tools.
 
+This is based on https://realpython.com/python-mcp-client
+But I've removed all unnecessary complexity (using `uv`, using `toml` to create an executable, etc).
+All that can be useful in its own right but is unrelated to the topic. the point of this is to understand MCP clients.
+
 ## What is MCP?
 
 MCP (Model Context Protocol) is a standard for connecting AI models to external tools and data. Think of it as a way to give your AI superpowers - instead of just chatting, it can:
